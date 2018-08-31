@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { ShareModule } from '../share/share.module';
+
+
 import { DashboardComponent } from './dashboard.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    ShareModule
   ],
   declarations: [DashboardComponent],
   exports: [DashboardComponent]

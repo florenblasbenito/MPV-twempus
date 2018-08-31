@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { CoreModule } from './core/core.module';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { ShareModule } from './share/share.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DashboardModule } from './dashboard/dashboard.module';
   imports: [
     BrowserModule,
     CoreModule,
-    DashboardModule
+    DashboardModule,
+    ShareModule
   ],
   providers: [],
   bootstrap: [AppComponent]
